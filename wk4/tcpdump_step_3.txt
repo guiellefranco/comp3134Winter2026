@@ -1,0 +1,20 @@
+Command:
+tcpdump -c 10
+
+Output:
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:25:01.004422 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827: Flags [P.], seq 2066564607:2066564715, ack 2876656605, win 5006, options [nop,nop,TS val 96338585 ecr 2197548488], length 108
+18:25:01.004513 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827: Flags [P.], seq 108:196, ack 1, win 5006, options [nop,nop,TS val 96338585 ecr 2197548488], length 88
+18:25:01.004577 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827: Flags [P.], seq 196:332, ack 1, win 5006, options [nop,nop,TS val 96338585 ecr 2197548488], length 136
+18:25:01.004615 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827: Flags [P.], seq 332:368, ack 1, win 5006, options [nop,nop,TS val 96338585 ecr 2197548488], length 36
+18:25:01.013044 IP bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 0, win 2048, options [nop,nop,TS val 2197548501 ecr 96338573], length 36
+18:25:01.013045 IP bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 2048, options [nop,nop,TS val 2197548502 ecr 96338585], length 0
+18:25:01.013224 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827: Flags [P.], seq 368:404, ack 37, win 5006, options [nop,nop,TS val 96338593 ecr 2197548501], length 36
+18:25:01.023157 IP bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 404, win 2048, options [nop,nop,TS val 2197548511 ecr 96338593], length 0
+18:25:01.034654 IP bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 404, win 2048, options [nop,nop,TS val 2197548523 ecr 96338593], length 36
+18:25:01.034823 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0569w-grc-41-174-94-67-255.dsl.bell.ca.59827: Flags [P.], seq 404:440, ack 73, win 5006, options [nop,nop,TS val 96338615 ecr 2197548523], length 36
+10 packets captured
+32 packets received by filter
+0 packets dropped by kernel
+

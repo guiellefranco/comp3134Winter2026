@@ -1,0 +1,28 @@
+Command:
+tcpdump port 80
+
+Output:
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:26:46.151710 IP 87.121.84.8.46746 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 1625759715, win 65535, length 0
+18:26:46.151782 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.46746: Flags [S.], seq 1134603159, ack 1625759716, win 64240, options [mss 1460], length 0
+18:26:46.260916 IP 87.121.84.8.46746 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [R], seq 1625759716, win 0, length 0
+18:26:46.304111 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 1263326815, win 64240, options [mss 1460,sackOK,TS val 775775863 ecr 0,nop,wscale 7], length 0
+18:26:46.304182 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [S.], seq 3721594747, ack 1263326816, win 65160, options [mss 1460,sackOK,TS val 1618520446 ecr 775775863,nop,wscale 7], length 0
+18:26:46.411869 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 775775970 ecr 1618520446], length 0
+18:26:46.411870 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:89, ack 1, win 502, options [nop,nop,TS val 775775971 ecr 1618520446], length 88: HTTP: GET / HTTP/1.1
+18:26:46.411949 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [.], ack 89, win 509, options [nop,nop,TS val 1618520554 ecr 775775971], length 0
+18:26:46.412411 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [P.], seq 1:2897, ack 89, win 509, options [nop,nop,TS val 1618520555 ecr 775775971], length 2896: HTTP: HTTP/1.1 200 OK
+18:26:46.412429 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [P.], seq 2897:5793, ack 89, win 509, options [nop,nop,TS val 1618520555 ecr 775775971], length 2896: HTTP
+18:26:46.412454 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [P.], seq 5793:7448, ack 89, win 509, options [nop,nop,TS val 1618520555 ecr 775775971], length 1655: HTTP
+18:26:46.412569 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [F.], seq 7448, ack 89, win 509, options [nop,nop,TS val 1618520555 ecr 775775971], length 0
+18:26:46.521043 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2897, win 497, options [nop,nop,TS val 775776079 ecr 1618520555], length 0
+18:26:46.521043 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 5793, win 485, options [nop,nop,TS val 775776079 ecr 1618520555], length 0
+18:26:46.521044 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 7448, win 473, options [nop,nop,TS val 775776079 ecr 1618520555], length 0
+18:26:46.521695 IP 87.121.84.8.35788 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 89, ack 7449, win 501, options [nop,nop,TS val 775776079 ecr 1618520555], length 0
+18:26:46.521745 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.http > 87.121.84.8.35788: Flags [.], ack 90, win 509, options [nop,nop,TS val 1618520664 ecr 775776079], length 0
+^C
+17 packets captured
+18 packets received by filter
+0 packets dropped by kernel
+
