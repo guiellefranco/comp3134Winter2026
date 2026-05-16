@@ -1,0 +1,22 @@
+Domain: microsoft.com
+
+Registrar:
+MarkMonitor Inc.
+
+Registered on:
+May 2, 1991
+
+Expiry date:
+May 3, 2027
+
+Name servers / DNS hosting:
+ns1-39.azure-dns.com
+ns2-39.azure-dns.net
+ns3-39.azure-dns.org
+ns4-39.azure-dns.info
+
+Hosting/DNS provider:
+The domain uses Microsoft Azure DNS name servers.
+
+Source:
+WHOIS lookup for microsoft.com

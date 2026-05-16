@@ -1,0 +1,27 @@
+Company: Microsoft Corporation
+
+Number of employees:
+Microsoft has approximately 228,000 employees.
+
+CEO:
+Satya Nadella, Chairman and Chief Executive Officer.
+
+CFO:
+Amy Hood, Executive Vice President and Chief Financial Officer.
+
+President:
+Brad Smith, Vice Chair and President.
+
+Current job postings:
+Microsoft posts current job openings on the Microsoft Careers website.
+Examples of job categories include software engineering, analytics, administration, business development, cloud, AI, cybersecurity, and product roles.
+
+Headquarters:
+Microsoft Corporation
+One Microsoft Way
+Redmond, Washington, United States
+
+Sources:
+Microsoft Leadership page
+Microsoft Careers page
+Microsoft company/public reporting

@@ -1,0 +1,21 @@
+Command:
+ping microsoft.com -c 5
+
+Output:
+PING microsoft.com (13.107.253.35) 56(84) bytes of data.
+
+--- microsoft.com ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4084msCommand:
+ping microsoft.com -c 5
+
+Output:
+PING microsoft.com (13.107.253.35) 56(84) bytes of data.
+
+--- microsoft.com ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4084ms
+
+Explanation:
+The ping command shows that my computer attempted to communicate with Microsoft's server.
+Although no responses were received, this does not mean the server is unreachable. Many large organizations block ICMP (ping) requests for security reasons.
+Therefore, the lack of response is expected, and the server is still accessible through other protocols such as HTTP/HTTPS.
+This command verifies that my computer can communicate with Microsoft's network/server because replies were received from the destination.
