@@ -1,0 +1,4 @@
+ARP spoofing is an attack where a malicious actor sends fake ARP messages on a network to associate their MAC address with the IP address of another device.
+This allows the attacker to intercept, modify, or block network traffic. To mitigate ARP spoofing, techniques such as static ARP entries, dynamic ARP inspection (DAI),
+and network segmentation can be used.
+Additionally, using encrypted communication protocols like HTTPS and SSH helps reduce the impact of such attacks by protecting the data even if it is intercepted.
